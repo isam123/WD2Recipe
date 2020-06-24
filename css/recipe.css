@@ -1,8 +1,14 @@
 
 
+
+html {
+    
+}
 /* Overall body should have white Background */
 body {
     background-color: white; 
+    background-image: url('/images/silverware.jpg');
+    height: 100%;
     
     
 }
@@ -14,6 +20,7 @@ h1,h2,h3,h4,h5 {
     color:#A4A400;
     font-family: Lucida Sans Unicode, Helvetica, Arial,  sans-serif;
     text-decoration: underline;
+    word-spacing: 0.25em;
 
 
 }
@@ -54,6 +61,11 @@ height: auto;
     font-size: 40px;
     }
 
+    .food-card a{
+        text-decoration: underline;
+        color: black;
+        }
+
 #direction ul {
     list-style-type:circle;
 }
@@ -78,4 +90,7 @@ blockquote {
 
 .comment footer {
     margin-top: 10px;
+}
+footer#footer {
+    text-align: center;
 }
