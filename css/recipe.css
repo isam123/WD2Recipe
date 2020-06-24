@@ -1,0 +1,81 @@
+
+
+/* Overall body should have white Background */
+body {
+    background-color: white; 
+    
+    
+}
+
+
+h1,h2,h3,h4,h5 {
+
+    background-color: #F0F0F0;
+    color:#A4A400;
+    font-family: Lucida Sans Unicode, Helvetica, Arial,  sans-serif;
+    text-decoration: underline;
+
+
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    
+}
+
+section{
+    
+    
+}
+
+.container {
+
+    margin: 0px auto;
+    width: 50%;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia,Garamond, serif;
+   
+    
+
+}
+.container a {
+    color: #A4A400;
+    text-decoration: none;
+}
+
+.food-card {
+height: auto;
+}
+
+.food-card p{
+    font-size: 40px;
+    }
+
+#direction ul {
+    list-style-type:circle;
+}
+#direction em {
+    font-weight: bold;
+}
+
+#direction em {
+    margin-left:10px;
+}
+
+blockquote {
+    background-color: #FFFFA8;
+    font-style: italic;
+    padding: 10px;
+    display: block;
+}
+
+.comment {
+    height: auto;
+}
+
+.comment footer {
+    margin-top: 10px;
+}
